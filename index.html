@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/52b161db3e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class=" navbar navbar-expand-lg bg-body-tertiary">
+    <div class="ml-3 container-fluid">
+
+      <a class="navbar-brand fs-2 text logo" href="#">SilvaFit</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="justify-content-md-evenly justify-content-lg-evenly justify-content-sm-start collapse navbar-collapse"
+        id="navbarSupportedContent">
+
+        <ul class="navbar-nav  mb-2 mb-lg-0 ">
+          <li class="nav-item mx-4 mb-sm-0 ">
+            <a class="nav-link navlink" href="#">Home</a>
+          </li>
+
+          <li class="nav-item mx-4 mb-sm-0">
+            <a class="nav-link navlink" href="#">Unidades</a>
+          </li>
+
+          <li class="nav-item mx-4 mb-sm-0">
+            <a class="nav-link navlink" href="#">planos</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Digite sua região" aria-label="Search">
+          <button class="btn bg-black text-white" type="submit">Procurar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--começo carrosel-->
+
+
+  <section class="carrosel">
+    <div id="carouselExampleAutoplaying" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/treino_de_braco_5.webp" class="carrosel-imagem d-block w-100 opacity-85" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Faça parte da familia SilvaFit</h5>
+            <p>Aproveite agora um mega desconto no primeiro mês</p>
+            <a href="#">Quero aproveitar</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/aula.jpg" class="carrosel-imagem d-block w-100 opacity-75" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Reserve seu horario para treinar</h5>
+            <p>Viva uma nova experiência todos os dias</p>
+            <a href="#">Reserve sua aula</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/nutr.jpg" class="d-block w-100 carrosel-imagem" alt="...">
+          <div class="carousel-caption  d-md-block">
+            <h5>acompanhamento com nossos nutricionistas</h5>
+            <a href="#">Veja agora</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+  <h5 class="text-center">Venha conhecer nossas unidades e encontre a mais perto de você</h5>
+
+  <section class=" d-flex justify-content-center">
+
+
+
+    <div class="promocao d-flex justify-content-center w-75">
+      <div class="card">
+        <img src="./img/uni1.jpg" class="card-img-top imagem_unidade" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Chácara Sto. Antonio</h5>
+          <p class="card-text">Rua José Guerra da Silva, 111 Santo Amaro</p>
+          <a href="#" class="btn btn-primary  d-flex justify-content-center">Ver academia</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/uni1.webp" class="card-img-top imagem_unidade" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Paulista</h5>
+          <p class="card-text">Avenida Paulista, 2073 - Terraço 2 Bela Vista</p>
+          <a href="#" class="btn btn-primary  d-flex justify-content-center">Ver academia</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/uni10.webp" class="card-img-top imagem_unidade" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Itaim</h5>
+          <p class="card-text">Rua Joaquim Floriano, 864 Itaim Bibi</p>
+          <a href="#" class="btn btn-primary  d-flex justify-content-center">Ver academia</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/img/uni2.jpg" class="card-img-top imagem_unidade" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Morumbi</h5>
+          <p class="card-text">Avenida Giovanni Gronchi, 4415 Vila Andrade</p>
+          <a href="#" class="btn btn-primary  d-flex justify-content-center">Ver academia</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/img/uni3.jpg" class="card-img-top imagem_unidade" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Limeira</h5>
+          <p class="card-text">Avenida Antônio Ometto, 1025 Vila Claudia</p>
+          <a href="#" class="btn btn-primary  d-flex justify-content-center">Ver academia</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/img/uni4.jpg" class="card-img-top imagem_unidade" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Santana</h5>
+          <p class="card-text">Rua Conselheiro Moreira de Barros, 2780 Santana</p>
+          <a href="#" class="btn btn-primary  d-flex justify-content-center">Ver academia</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/img/uni7.jpg" class="card-img-top imagem_unidade" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ABC - Santo André</h5>
+          <p class="card-text">Avenida Pereira Barreto, 42 - Piso Loft Paraíso</p>
+          <a href="#" class="btn btn-primary  d-flex justify-content-center">Ver academia</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/img/uni8.jpg" class="card-img-top imagem_unidade" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Shopping Tamboré</h5>
+          <p class="card-text">Avenida Piracema, 669 - Loja 109 / 142 Tamboré</p>
+          <a href="#" class="btn btn-primary  d-flex justify-content-center">Ver academia</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section>
+
+    <h5 class="text-center my-5">Todos os planos incluem </h5>
+
+    <div class="d-flex justify-content-center flex-wrap te-center align-items-center">
+
+      <div class="card  border-0 pb-5" style="width: 19rem;">
+        <img src="img/img1.webp" class="card-img-top imagem__planos m-auto" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Studios exclusivos</h5>
+          <p class="card-text">Treinos personalizados de Vidya, Torq, Burn, Race e Squad.</p>
+
+        </div>
+      </div>
+
+      <div class="card  border-0 pb-5" style="width: 19rem;">
+        <img src="img/img2.webp" class="card-img-top imagem__planos m-auto" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Reserve um horario</h5>
+          <p class="card-text">Conheça nossos programas de hipertrofia e emagrecimento.</p>
+        </div>
+      </div>
+
+      <div class="card  border-0 pb-5" style="width: 19rem;">
+        <img src="img/img3.webp" class="card-img-top imagem__planos m-auto" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Aulas de ginastica</h5>
+          <p class="card-text">Mais de 20 aulas diferentes pra você escolher.</p>
+        </div>
+      </div>
+
+
+      <div class="card  border-0 pb-5" style="width: 18rem;">
+        <img src="img/img4.webp" class="card-img-top imagem__planos m-auto" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Professores capacitados</h5>
+          <p class="card-text">Oferecemos assessoria completa desde o seu primeiro dia.</p>
+        </div>
+      </div>
+
+      <div class="card  border-0 pb-5" style="width: 18rem;">
+        <img src="img/img5.webp" class="card-img-top imagem__planos m-auto" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Trancamento de ferias</h5>
+          <p class="card-text">Possibilidade de trancar por até 30 dias de férias a cada 12 meses.</p>
+        </div>
+      </div>
+
+      <div class="card  border-0 pb-5" style="width: 18rem;">
+        <img src="img/img6.webp" class="card-img-top imagem__planos m-auto" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Infraestrutura diferenciada</h5>
+          <p class="card-text">Os melhores equipamentos em um ambiente inovador.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="bg-black p-5 preco">
+
+    <div class="d-flex justify-content-center flex-wrap texte-center align-items-center">
+
+      <ul class="d-flex justify-content-center flex-wrap texte-center text-white">
+
+        <li class="d-flex justify-content-center flex-column border p-3 linha align-items-center m-3">
+          <h2 class="fs-4 text">Plano Recorrente 12 meses</h2>
+          <p class="fs-4 text fw-bold">R$499</p>
+          <p class="fs-6 text">Plano mais vendido</p>
+          <a href="#" class="text-white link">Compra aqui</a><br>
+          <a href="#" class="text-white link2">Saiba mais <i class="fa-sharp fa-solid fa-arrow-down"></i></a>
+        </li>
+
+        <li class="d-flex justify-content-center flex-column border p-3 linha align-items-center m-3 ">
+          <h2 class="fs-4 text">Plano Platinum 12 meses</h2>
+          <p class="fs-4 text fw-bold">R$549</p>
+          <p class="fs-6 text">Traine em todas as academias</p>
+          <a href="#" class="text-white link">Compra aqui</a><br>
+          <a href="#" class="text-white link2">Saiba mais <i class="fa-sharp fa-solid fa-arrow-down"></i></a>
+        </li>
+
+        <li class="d-flex justify-content-center flex-column border p-3 linha align-items-center m-3 ">
+          <h2 class="fs-4 text">Plano Recorrente 4 meses</h2>
+          <p class="fs-4 text fw-bold">R$539</p>
+          <p class="fs-6 text">Conheça nossa esperiência</p>
+          <a href="#" class="text-white link">Compra aqui</a><br>
+          <a href="#" class="text-white link2">Saiba mais <i class="fa-sharp fa-solid fa-arrow-down"></i></a>
+        </li>
+      </ul>
+
+
+  </section>
+
+
+
+
+  <footer>
+
+    <section>
+
+      <h2 class="text-center py-2 fs-2 text fw-bold border-bottom border-black">SilvaFit</h2>
+     
+
+      <h3 class="text-center py-2 fs-4 text">Siga a Silva Fit</h3>
+
+      <div class="d-flex justify-content-center pb-2 border-bottom border-black">
+
+        <a href="#"><i class="fa-brands fa-instagram  fs-2 text p-1 insta"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook  fs-2 text  p-1"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube  fs-2 text  p-1 text-danger"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok  fs-2 text  p-1 text-black"></i></a>
+        <a href="#"><i class="fa-brands fa-spotify  fs-2 text  p-1 text-success"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter  fs-2 text  p-1"></i></a>
+
+      </div>
+
+      <div class="Institucional mobile border-bottom border-black">
+
+        <div class="d-flex justify-content-evenly d-sm-none d-md-none d-lg-flex">
+
+          <ul class="">
+            <li>
+              <h2>Institucional</h2>
+            </li>
+            <li>
+              <a href="#">Sobre</a>
+            </li>
+            <li>
+              <a href="#">Coneceito</a>
+            </li>
+            <li>
+              <a href="#">Investidores</a>
+            </li>
+            <li>
+              <a href="#">Fale conosco</a>
+            </li>
+            <li>
+              <a href="#">Aviso de privacidade</a>
+            </li>
+            <li>
+              <a href="#">Central de ajudas</a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <h2>Planos</h2>
+            </li>
+            <li>
+              <a href="#">Planos</a>
+            </li>
+            <li>
+              <a href="#">Contratos</a>
+            </li>
+            <li>
+              <a href="#">Planos corporativos</a>
+            </li>
+            <li>
+              <a href="#">Silva Fit supps</a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <h2>Corporativo</h2>
+            </li>
+            <li>
+              <a href="#">Imprensa</a>
+            </li>
+            <li>
+              <a href="#">Quero ser um franqueado</a>
+            </li>
+            <li>
+              <a href="#">Divulgue sua marca</a>
+            </li>
+            <li>
+              <a href="#">Indique um ponto</a>
+            </li>
+            <li>
+              <a href="#">Trabalhe conosco</a>
+            </li>
+          </ul>
+          <hr>
+        </div>
+      </div>
+
+      <div class="text-center my-3">
+        <p class="email"><a href="#">faleconosco@silvafit.com</a></p>
+
+        <p class="email"><a href="#">SilvaFit ESCOLA DE GINÁSTICA E DANÇA S.A
+        </a></p>
+
+        <p>CNPJ: 01.111.111/0001-11</p>
+
+
+      </div>
+
+    </section>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
